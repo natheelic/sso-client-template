@@ -1,5 +1,5 @@
 /**
- * NextAuth configuration for Web A.
+ * NextAuth configuration for SSO Client.
  *
  * This app is an OAuth2 client of the central SSO server.
  * It does NOT store passwords — authentication always goes through

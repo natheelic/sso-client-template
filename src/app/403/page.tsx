@@ -8,7 +8,7 @@
 import { auth, signOut } from "@/lib/auth";
 import { ThemeToggle } from "@/components/theme-toggle";
 
-const APP_NAME = process.env.APP_NAME ?? "Web A";
+const APP_NAME = process.env.APP_NAME ?? "SSO Client";
 const SSO_URL = process.env.SSO_URL ?? "http://localhost:3000";
 
 export default async function ForbiddenPage() {

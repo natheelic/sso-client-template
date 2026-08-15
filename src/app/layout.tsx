@@ -2,9 +2,11 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
 
+const APP_NAME = process.env.APP_NAME ?? "SSO Client"
+
 export const metadata: Metadata = {
-  title: "Web A — SSO Client",
-  description: "Client application A — protected by the central SSO server",
+  title: `${APP_NAME} — SSO Client`,
+  description: `Client application ${APP_NAME} — protected by the central SSO server`,
 };
 
 export const viewport: Viewport = {

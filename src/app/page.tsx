@@ -11,7 +11,7 @@ import Image from "next/image";
 import { AppShell } from "@/components/app-shell";
 import { BanIcon, CheckIcon } from "@/components/icons";
 
-const APP_NAME = process.env.APP_NAME!;
+const APP_NAME = process.env.APP_NAME ?? "SSO Client";
 const APP_SLUG = process.env.SSO_CLIENT_ID!;
 const SSO_URL = process.env.SSO_URL ?? "http://localhost:3000";
 

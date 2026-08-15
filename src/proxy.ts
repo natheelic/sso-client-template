@@ -1,5 +1,5 @@
 /**
- * proxy.ts  — Next.js 16 route guard for Web A
+ * proxy.ts  — Next.js 16 route guard for SSO Client
  *
  * NOTE: In Next.js 16 `middleware.ts` is deprecated and renamed to `proxy.ts`.
  *       The exported function must be `export default` or named `export function proxy`.
